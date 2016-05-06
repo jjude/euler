@@ -21,7 +21,7 @@ var i = 100
 var j = 100
 
 while i < 1000 {
-  while j < 1000 {
+  while j < i {
     k = i * j
     s = String(k)
     if s == String(s.characters.reverse()) && k > answer {
